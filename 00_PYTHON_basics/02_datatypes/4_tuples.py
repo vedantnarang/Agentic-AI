@@ -1,11 +1,13 @@
 #tuples means()
+# they are immutable (cannot be changed)
 
 
 print('*-'*5,'TUPLES')
-tuple=(5,6,7,8,9)
+tuple=(5,6,7,8,9,'ginger')
 print(tuple[0])
 print(tuple[2])
 print(tuple[4])
+print("ginger" in tuple)
 print(2 in tuple)
 print(5 in tuple)
 print(len(tuple))
