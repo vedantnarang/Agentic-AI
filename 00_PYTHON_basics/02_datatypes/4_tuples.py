@@ -3,4 +3,4 @@
 
 spices=("cardamom","chilli","cinnamon","haldi");
 
-print(f"{spices2}")
+print(spices[2])
