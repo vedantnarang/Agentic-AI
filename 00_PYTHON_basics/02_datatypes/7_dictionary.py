@@ -15,10 +15,10 @@ print(3 in chai_recipe)
 print("sugar_level" in chai_order)
 print("large" in chai_order)# you can seach for the the key only  
 
+print(chai_order.items())
 
 print(chai_order.keys())
 print(chai_order.values())
-print(chai_order.items())
 changes_in_order={"liquid":"milk","ratio":"3:1"}
 
 chai_order.update(changes_in_order)
